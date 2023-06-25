@@ -34,6 +34,31 @@ this dataset consist of 12330 visitors session where the conversion visitors onl
 The "Special Day" feature indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day) in which the sessions are more likely to be finalized with transaction. The value of this attribute is determined by considering the dynamics of e-commerce such as the duration between the order date and delivery date. For example, for Valentina’s day, this value takes a nonzero value between February 2 and February 12 ( 2 week before the special day), zero before and after this date unless it is close to another special day, and its maximum value of 1 on February 8 ( a week before special day.
 
 ## Exploratory Data Analysis
-**1.November was the highest conversion rate (25%) although May sees the most visitors
-![image](https://github.com/senavietrin/Analysis-and-Prediction-on-Online-Shopper-intention-at-E-commerce-Website/assets/116081571/d7323e3b-4402-4721-bc7c-801ac6f3098e)
 
+**1.Monthly Conversion**
+![image](https://github.com/senavietrin/Analysis-and-Prediction-on-Online-Shopper-intention-at-E-commerce-Website/assets/116081571/d7323e3b-4402-4721-bc7c-801ac6f3098e)
+November sees the highest conversion rate (25%) although May sees the most visitors. The conversion significantly increased between February - March and June-November, but it sharply decreased in December
+
+**2. Number of Visits and Duration Per Page By Visitor**
+ - Administrative page: visited by revenue user about two times in a single session where they spent about 34 second at this page, while non revenue visitors have more duration and more visit
+ - Product Related Page: revenue user visits this page about 24 times each session where they spent 15 minutes at this page, while non revenue visitors spent more duration and visit
+ - Informational : users rarely visit this page , number of visitation and duration of revenue users is about 0 for this page
+ - Informational Page: this page is rarely visited by users
+
+**3. Bounce Rate, Exit Rate, and Pgae Value**
+- Visitors who experience high Bounce Rate are more likely to have a high Exit Rate
+- Visitors with Bouncer Rate higher than 0 and an Exit Rate higher than 0.016 are more likely tend to not purchase
+- Returning visitors are more likely to abandon they journey because they have the greatest Bounce Rates and Exit Rates
+  
+**4. Top user region, traffic type, and browser type**
+- Most users come from region 2 and 9 that dominated by around 80% returning visitors
+- Most users use traffic type 16 and 7 that dominated by returning visitors
+- Most users use browser type 12 and 13 where type 12 dominated by returning visitor and type 13 dominated by unsure/other visitors
+
+
+## Model Building
+![image](https://github.com/senavietrin/Analysis-and-Prediction-on-Online-Shopper-intention-at-E-commerce-Website/assets/116081571/efb1488b-0ed1-42d5-92af-6beaad98c576)
+![image](https://github.com/senavietrin/Analysis-and-Prediction-on-Online-Shopper-intention-at-E-commerce-Website/assets/116081571/deeca04d-a7ba-48cf-acb8-d3075d7f4de7)
+- best model is XGBoostClassifier with the F1 Score = 66% , precision = 74%, and recall = 59% and  AUC = 0.94
+- True positive = 2510, False positive = 184, True negative = 265, False negative = 93
+- Page value is the most influential features to the model
