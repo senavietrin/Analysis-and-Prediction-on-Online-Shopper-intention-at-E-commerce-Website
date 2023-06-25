@@ -40,20 +40,20 @@ The "Special Day" feature indicates the closeness of the site visiting time to a
 - November sees the highest conversion rate (25%) although May sees the most visitors. The conversion significantly increased between February - March and June-November, but it sharply decreased in December
 
 **2. Number of Visits and Duration Per Page By Visitor**
- - Administrative page: visited by revenue user about two times in a single session where they spent about 34 second at this page, while non revenue visitors have more duration and more visit
- - Product Related Page: revenue user visits this page about 24 times each session where they spent 15 minutes at this page, while non revenue visitors spent more duration and visit
- - Informational : users rarely visit this page , number of visitation and duration of revenue users is about 0 for this page
+ - Administrative page: visited by revenue users about two times in a single session where they spent about 34 seconds at this page, while non-revenue visitors have more duration and more visit
+ - Product Related Page: revenue user visits this page about 24 times each session where they spent 15 minutes on this page, while non-revenue visitors spend more duration and visit
+ - Informational: users rarely visit this page, the number of visits and duration of revenue users is about 0 for this page
  - Informational Page: this page is rarely visited by users
 
 **3. Bounce Rate, Exit Rate, and Pgae Value**
-- Visitors who experience high Bounce Rate are more likely to have a high Exit Rate
+- Visitors who experience a high Bounce Rate are more likely to have a high Exit Rate
 - Visitors with Bouncer Rate higher than 0 and an Exit Rate higher than 0.016 are more likely tend to not purchase
-- Returning visitors are more likely to abandon they journey because they have the greatest Bounce Rates and Exit Rates
+- Returning visitors are more likely to abandon their journey because they have the greatest Bounce Rates and Exit Rates
   
 **4. Top user region, traffic type, and browser type**
-- Most users come from region 2 and 9 that dominated by around 80% returning visitors
-- Most users use traffic type 16 and 7 that dominated by returning visitors
-- Most users use browser type 12 and 13 where type 12 dominated by returning visitor and type 13 dominated by unsure/other visitors
+- Regions with highest conversion are f region 2 and 9 dominated by around 80% returning visitors
+- Traffic types with the highest conversion are types 16 and 7 dominated by returning visitors
+- Browser types with the highest conversion are  type 12 and 13 where type 12 is dominated by returning visitors and type 13 is dominated by unsure/other visitors
 
 
 ## Model Building
