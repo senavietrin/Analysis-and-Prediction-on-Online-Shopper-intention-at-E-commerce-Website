@@ -33,3 +33,7 @@ this dataset consist of 12330 visitors session where the conversion visitors onl
 **Note** :
 The "Special Day" feature indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day) in which the sessions are more likely to be finalized with transaction. The value of this attribute is determined by considering the dynamics of e-commerce such as the duration between the order date and delivery date. For example, for Valentina’s day, this value takes a nonzero value between February 2 and February 12 ( 2 week before the special day), zero before and after this date unless it is close to another special day, and its maximum value of 1 on February 8 ( a week before special day.
 
+## Exploratory Data Analysis
+**1.November was the highest conversion rate (25%) although May sees the most visitors
+![image](https://github.com/senavietrin/Analysis-and-Prediction-on-Online-Shopper-intention-at-E-commerce-Website/assets/116081571/d7323e3b-4402-4721-bc7c-801ac6f3098e)
+
