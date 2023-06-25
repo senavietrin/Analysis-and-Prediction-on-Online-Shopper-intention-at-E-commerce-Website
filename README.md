@@ -37,7 +37,7 @@ The "Special Day" feature indicates the closeness of the site visiting time to a
 
 **1.Monthly Conversion**
 ![image](https://github.com/senavietrin/Analysis-and-Prediction-on-Online-Shopper-intention-at-E-commerce-Website/assets/116081571/d7323e3b-4402-4721-bc7c-801ac6f3098e)
-November sees the highest conversion rate (25%) although May sees the most visitors. The conversion significantly increased between February - March and June-November, but it sharply decreased in December
+- November sees the highest conversion rate (25%) although May sees the most visitors. The conversion significantly increased between February - March and June-November, but it sharply decreased in December
 
 **2. Number of Visits and Duration Per Page By Visitor**
  - Administrative page: visited by revenue user about two times in a single session where they spent about 34 second at this page, while non revenue visitors have more duration and more visit
@@ -62,3 +62,23 @@ November sees the highest conversion rate (25%) although May sees the most visit
 - best model is XGBoostClassifier with the F1 Score = 66% , precision = 74%, and recall = 59% and  AUC = 0.94
 - True positive = 2510, False positive = 184, True negative = 265, False negative = 93
 - Page value is the most influential features to the model
+
+## SUMMARY
+1. November saw the greatest conversion rate (25%).
+2. Users tend to shop around holidays in February and May compared to special days in other months.
+3. Users who successfully make a purchase or generate revenue typically visit and stay on pages for shorter periods of time than users who do not.
+4. Due to their higher page value and income, new visitors have the potential to provide better conversions.
+5. Returning visitors often only browse one page before leaving the website.
+6. Regions 2 and 9 have the highest conversion rates, which are primarily made up of returning visitors.
+7. The highest conversion rates are found in traffics 16 and 7, which are primarily made up of returning visitors.
+8. The two browsers with the highest conversion rates are 12 and 13, with browser 12 dominated by returning visitors and browser 13 by other users.
+9. Best Model is XGBoostClassifier with f1 score 66%
+
+## Bussiness Recomendation
+1. Because consumers frequently encounter high bounce rates and departure rates, companies must assess the content and user experience of their websites.
+2. By running campaigns that capitalize on the month's holidays and related product highlights, monthly conversions can be raised.
+3. Because returning visitor conversions are still lower than those of new visitors, they must be raised. This can be achieved by using points-based rewards and product suggestions that are relevant to user searches.
+4. Provides customers from low-conversion regions with lower shipping cost
+5. Adjusting the user experience to the user's preferred browser
+
+
